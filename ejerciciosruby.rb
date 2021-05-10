@@ -1,9 +1,7 @@
-fn = 1
-sn = -1
-sum = 0
-
-while fn <= 4000000
-    fn, sn = fn+sn, fn
-    sum += fn if fn.even? 
+print "ingrese valor: "
+valor gets.chomp.to_i
+r = 1
+for i in (1..valor)
+    r = r * i 
 end
-puts "el resultado es #{sum}"
+    puts "#{r}"
